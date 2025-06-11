@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className="bg-black text-green-400 min-h-screen flex flex-col items-center justify-center font-pixel">
-      <h1 ref={titleRef} className="text-3xl sm:text-4xl mb-8 text-center">
+      <h1 className="text-4xl text-green-400 font-pixel">
         Welcome to the 8bit World!
       </h1>
       <p className="text-center text-sm sm:text-base max-w-md">
