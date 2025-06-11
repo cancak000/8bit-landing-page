@@ -1,6 +1,19 @@
 @import "@fontsource/press-start-2p";
 @import "tailwindcss";
 
+@keyframes blink-hard {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+.blink-hard {
+  animation: blink-hard 1s step-start infinite;
+}
+
 :root {
   --background: #000000;
   --foreground: #00ff00;
